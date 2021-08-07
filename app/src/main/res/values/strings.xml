@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UMS Codes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tariffs">Tariffs</string>
+    <string name="minutes">Minutes</string>
+    <string name="internet">Internet</string>
+    <string name="services">Services</string>
+    <string name="sms">SMS</string>
+    <string name="news">News</string>
+    <string name="not_found">Not found</string>
+    <string name="news1">Tariff plans for Mobi 20, 30 and 40 are updated!</string>
+    <string name="news1_desc">Dear users! We are happy to announce that tariff plans for Mobi 20, Mobi 30, and Mobi 40, and Mobi 50 are updated. Feel free to enjoy new plans and get more benefit with us</string>
+    <string name="more">More</string>
+    <string name="news3">Changes in discount \'Comfortable offer V.2\'</string>
+    <string name="news2">The discount \'Decreasing prices for internet packs\' is lengthened</string>
+</resources>

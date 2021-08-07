@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment2">
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.jamshidbek.umscodes.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_minutesFragment2"
+            app:destination="@id/minutesFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_tariffsFragment2"
+            app:destination="@id/tariffsFragment2" />
+        <action
+            android:id="@+id/action_homeFragment2_to_newsFragment"
+            app:destination="@id/newsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/minutesFragment2"
+        android:name="com.jamshidbek.umscodes.Fragments.MinutesFragment"
+        android:label="fragment_minutes"
+        tools:layout="@layout/fragment_minutes" >
+        <action
+            android:id="@+id/action_minutesFragment2_to_minutesShowFragment"
+            app:destination="@id/minutesShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tariffsFragment2"
+        android:name="com.jamshidbek.umscodes.Fragments.TariffsFragment"
+        android:label="fragment_tariffs"
+        tools:layout="@layout/fragment_tariffs" >
+        <action
+            android:id="@+id/action_tariffsFragment2_to_tariffsShowFragment"
+            app:destination="@id/tariffsShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tariffsShowFragment"
+        android:name="com.jamshidbek.umscodes.Fragments.TariffsShowFragment"
+        android:label="fragment_tariffs_show"
+        tools:layout="@layout/fragment_tariffs_show" />
+    <fragment
+        android:id="@+id/minutesShowFragment"
+        android:name="com.jamshidbek.umscodes.Fragments.MinutesShowFragment"
+        android:label="fragment_minutes_show"
+        tools:layout="@layout/fragment_minutes_show" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.jamshidbek.umscodes.Fragments.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+</navigation>
