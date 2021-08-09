@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_homeFragment2_to_newsFragment"
             app:destination="@id/newsFragment" />
+        <action
+            android:id="@+id/action_homeFragment2_to_servicesFragment"
+            app:destination="@id/servicesFragment" />
     </fragment>
     <fragment
         android:id="@+id/minutesFragment2"
@@ -52,4 +55,9 @@
         android:name="com.jamshidbek.umscodes.Fragments.NewsFragment"
         android:label="fragment_news"
         tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="com.jamshidbek.umscodes.Fragments.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" />
 </navigation>

@@ -41,6 +41,10 @@ class HomeFragment : Fragment() {
             root.findNavController().navigate(R.id.newsFragment, bundle, navOption.build())
         }
 
+        root.services.setOnClickListener{
+            root.findNavController().navigate(R.id.servicesFragment, bundle, navOption.build())
+        }
+
         return root
     }
 }
